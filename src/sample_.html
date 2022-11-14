@@ -1,0 +1,43 @@
+<html>
+    <head>
+
+    </head>
+    <body>
+        <h1>Season{name} extraer de season/name xml</h1>
+        <h3>Competition: {competition} extraer de season/competition del XML</h3>
+        <h4>Year: {year} extraer de date/year. From {start} to {end} extraer de date/start y date/end respectivamente</h4>
+
+        <hr/><hr/>
+         <h4>{phase} valor de atributo @phase. From {start_date} to {end_date} valor de atributo @start_date y @end_date respectivamente</h4>
+        <hr/>
+
+        <h4>Competitors:</h4>
+        <ol>
+            <li>C1 en forma "{name} ({country})"</li>
+            <li>C2 en forma "{name} ({country})"</li>
+            <li>C3 en forma "{name} ({country})"</li>
+        </ol>
+
+        <h4>Events: (Orden ascendente por el atributo @start_time producido desde el XSLT</h4>
+        <table>
+            <thead>
+                <th>Date atributo @start_date (para primera fila) | en blanco (para segunda fila)</th>
+                <th>Local extraer de local/score (para primera fila) | extraer de local/name (para segunda fila)</th>
+                <th>Visitor extraer de visitor/score (para primera fila) | extraer de visitor/name (para segunda fila)</th>
+            </thead>
+                <tbody>
+                    <tr>
+                        <td>Date</td>
+                        <td>GoalsLocal</td>
+                        <td>GoalsVisitor</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>Team1</td>
+                        <td>Team2</td>
+                    </tr>
+                </tbody>
+        </table>
+
+    </body>
+</html>

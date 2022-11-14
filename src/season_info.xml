@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<season_info xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" generated_at="2022-11-14T20:46:10+00:00" xsi:schemaLocation="http://schemas.sportradar.com/sportsapi/soccer/v4 ../../../schemas/season_info.xsd">
+  <coverage type="competition">
+    <competition_properties brackets="true" missing_players="false" player_transfer_history="false" schedules="true" season_player_statistics="true" season_stats_leaders="true" season_team_statistics="true" standings="post" team_squads="true"/>
+    <sport_event_properties basic_play_by_play="true" basic_player_stats="true" basic_team_stats="true" extended_player_stats="false" extended_team_stats="false" deeper_play_by_play="true" deeper_team_stats="true" deeper_player_stats="true" lineups="true" goal_scorers="true" scores="live"/>
+  </coverage>
+  <season id="sr:season:93959" name="UEFA Champions League 22/23" start_date="2022-06-21" end_date="2023-06-10" year="22/23" competition_id="sr:competition:7">
+    <sport id="sr:sport:1" name="Soccer"/>
+    <category id="sr:category:393" name="International Clubs"/>
+    <competition id="sr:competition:7" name="UEFA Champions League" gender="men"/>
+  </season>
+  <stages>
+    <stage order="1" type="cup" phase="qualification" start_date="2022-06-21" end_date="2022-06-24" year="22/23">
+      <groups>
+        <group id="sr:cup:133481" name="UEFA Champions League 22/23, Preliminary Round">
+          <competitors>
+            <competitor id="sr:competitor:1908" name="Vikingur Reykjavik" country="Iceland" country_code="ISL" abbreviation="VIK" gender="male"/>
+            <competitor id="sr:competitor:3342" name="FCI Levadia Tallinn" country="Estonia" country_code="EST" abbreviation="LEV" gender="male"/>
+            <competitor id="sr:competitor:37860" name="SP La Fiorita" country="San Marino" country_code="SMR" abbreviation="LAF" gender="male"/>
+            <competitor id="sr:competitor:37946" name="Inter Club de Escaldes" country="Andorra" country_code="AND" abbreviation="ESC" gender="male"/>
+          </competitors>
+          <coverage type="group">
+            <group_properties brackets="true" cup="true" league="false" missing_players="false" qualification="true" schedules="true" results="true" standings="false" group_stage="false"/>
+            <sport_event_properties basic_play_by_play="true" basic_player_stats="true" basic_team_stats="true" lineups="false" extended_player_stats="false" extended_team_stats="false" deeper_team_stats="false" deeper_player_stats="false" deeper_play_by_play="false" goal_scorers="true" scores="live"/>
+          </coverage>
+        </group>
+      </groups>
+    </stage>
+    <stage order="2" type="cup" phase="qualification" start_date="2022-07-05" end_date="2022-08-24" year="22/23">
+      <groups>
+        <group id="sr:cup:133483" name="UEFA Champions League 22/23, Qualification">
+          <competitors>
+            <competitor id="sr:competitor:656" name="Bodoe/Glimt" country="Norway" country_code="NOR" abbreviation="BOG" gender="male"/>
+            <competitor id="sr:competitor:1284" name="FC Copenhagen" country="Denmark" country_code="DNK" abbreviation="FCC" gender="male"/>
+            <competitor id="sr:competitor:1289" name="FC Midtjylland" country="Denmark" country_code="DNK" abbreviation="FCM" gender="male"/>
+            <competitor id="sr:competitor:1653" name="AS Monaco" country="France" country_code="FRA" abbreviation="ASM" gender="male"/>
+            <competitor id="sr:competitor:1892" name="Malmo FF" country="Sweden" country_code="SWE" abbreviation="MAL" gender="male"/>
+            <competitor id="sr:competitor:1908" name="Vikingur Reykjavik" country="Iceland" country_code="ISL" abbreviation="VIK" gender="male"/>
+            <competitor id="sr:competitor:1925" name="Ferencvarosi Budapest" country="Hungary" country_code="HUN" abbreviation="FTC" gender="male"/>
+            <competitor id="sr:competitor:2032" name="GNK Dinamo Zagreb" country="Croatia" country_code="HRV" abbreviation="DIN" gender="male"/>
+            <competitor id="sr:competitor:2051" name="SK Sturm Graz" country="Austria" country_code="AUT" abbreviation="STU" gender="male"/>
+            <competitor id="sr:competitor:2242" name="HJK Helsinki" country="Finland" country_code="FIN" abbreviation="HJK" gender="male"/>
+            <competitor id="sr:competitor:2351" name="Glasgow Rangers" country="Scotland" country_code="SCO" abbreviation="RFC" gender="male"/>
+            <competitor id="sr:competitor:2404" name="Slovan Bratislava" country="Slovakia" country_code="SVK" abbreviation="SLO" gender="male"/>
+            <competitor id="sr:competitor:2420" name="NK Maribor" country="Slovenia" country_code="SVN" abbreviation="MAR" gender="male"/>
+            <competitor id="sr:competitor:2450" name="FC Zurich" country="Switzerland" country_code="CHE" abbreviation="FCZ" gender="male"/>
+            <competitor id="sr:competitor:2952" name="PSV Eindhoven" country="Netherlands" country_code="NLD" abbreviation="PSV" gender="male"/>
+            <competitor id="sr:competitor:3006" name="Benfica Lisbon" country="Portugal" country_code="PRT" abbreviation="BEN" gender="male"/>
+            <competitor id="sr:competitor:3051" name="Trabzonspor" country="Turkiye" country_code="TUR" abbreviation="TRA" gender="male"/>
+            <competitor id="sr:competitor:3052" name="Fenerbahce Istanbul" country="Turkiye" country_code="TUR" abbreviation="FEN" gender="male"/>
+            <competitor id="sr:competitor:3121" name="KKS Lech Poznan" country="Poland" country_code="POL" abbreviation="LPO" gender="male"/>
+            <competitor id="sr:competitor:3177" name="Shamrock Rovers" country="Ireland" country_code="IRL" abbreviation="SHA" gender="male"/>
+            <competitor id="sr:competitor:3245" name="Olympiacos Piraeus" country="Greece" country_code="GRC" abbreviation="OLY" gender="male"/>
+            <competitor id="sr:competitor:3305" name="FC Dynamo Kiev" country="Ukraine" country_code="UKR" abbreviation="DYK" gender="male"/>
+            <competitor id="sr:competitor:3357" name="FC Shakhter Soligorsk" country="Belarus" country_code="BLR" abbreviation="SHS" gender="male"/>
+            <competitor id="sr:competitor:3402" name="Apollon Limassol" country="Cyprus" country_code="CYP" abbreviation="APO" gender="male"/>
+            <competitor id="sr:competitor:3404" name="AEK Larnaca" country="Cyprus" country_code="CYP" abbreviation="AEK" gender="male"/>
+            <competitor id="sr:competitor:4502" name="FC Viktoria Plzen" country="Czech Republic" country_code="CZE" abbreviation="VIK" gender="male"/>
+            <competitor id="sr:competitor:4860" name="Union Saint-Gilloise" country="Belgium" country_code="BEL" abbreviation="USG" gender="male"/>
+            <competitor id="sr:competitor:4921" name="The New Saints FC" country="Wales" country_code="WAL" abbreviation="TNS" gender="male"/>
+            <competitor id="sr:competitor:5149" name="FK Crvena Zvezda Belgrade" country="Serbia" country_code="SRB" abbreviation="CRZ" gender="male"/>
+            <competitor id="sr:competitor:5173" name="FC Sheriff Tiraspol" country="Moldova" country_code="MDA" abbreviation="SHF" gender="male"/>
+            <competitor id="sr:competitor:5178" name="HSK Zrinjski Mostar" country="Bosnia &amp; Herzegovina" country_code="BIH" abbreviation="ZRI" gender="male"/>
+            <competitor id="sr:competitor:5194" name="KI Klaksvik" country="Faroe Islands" country_code="FRO" abbreviation="KI" gender="male"/>
+            <competitor id="sr:competitor:5195" name="KF Tirana" country="Albania" country_code="ALB" abbreviation="KFT" gender="male"/>
+            <competitor id="sr:competitor:5197" name="Maccabi Haifa FC" country="Israel" country_code="ISR" abbreviation="MAH" gender="male"/>
+            <competitor id="sr:competitor:5207" name="F91 Dudelange" country="Luxembourg" country_code="LUX" abbreviation="F91" gender="male"/>
+            <competitor id="sr:competitor:5214" name="FC Pyunik Yerevan" country="Armenia" country_code="ARM" abbreviation="PYU" gender="male"/>
+            <competitor id="sr:competitor:5272" name="Linfield FC" country="Northern Ireland" country_code="NIR" abbreviation="LIN" gender="male"/>
+            <competitor id="sr:competitor:5287" name="FC CFR 1907 Cluj" country="Romania" country_code="ROU" abbreviation="CFR" gender="male"/>
+            <competitor id="sr:competitor:5331" name="Hibernians FC Paola" country="Malta" country_code="MLT" abbreviation="HIB" gender="male"/>
+            <competitor id="sr:competitor:5345" name="Vilnius FK Zalgiris" country="Lithuania" country_code="LTU" abbreviation="ZAL" gender="male"/>
+            <competitor id="sr:competitor:5362" name="Tobol Kostanay" country="Kazakhstan" country_code="KAZ" abbreviation="TOB" gender="male"/>
+            <competitor id="sr:competitor:5962" name="Qarabag FK" country="Azerbaijan" country_code="AZE" abbreviation="QAR" gender="male"/>
+            <competitor id="sr:competitor:6224" name="FK Sutjeska Niksic" country="Montenegro" country_code="MNE" abbreviation="SUN" gender="male"/>
+            <competitor id="sr:competitor:37297" name="FC Dinamo Batumi" country="Georgia" country_code="GEO" abbreviation="BAT" gender="male"/>
+            <competitor id="sr:competitor:43840" name="PFC Ludogorets 1945 Razgrad" country="Bulgaria" country_code="BGR" abbreviation="LUD" gender="male"/>
+            <competitor id="sr:competitor:68718" name="FK Rigas Futbola Skola" country="Latvia" country_code="LVA" abbreviation="RFS" gender="male"/>
+            <competitor id="sr:competitor:126304" name="Lincoln Red Imps" country="Gibraltar" country_code="GIB" abbreviation="LIN" gender="male"/>
+            <competitor id="sr:competitor:136548" name="Shkupi Cair" country="North Macedonia" country_code="MKD" abbreviation="SHK" gender="male"/>
+            <competitor id="sr:competitor:280003" name="FC Ballkani" country="Kosovo" country_code="KOS" abbreviation="BAL" gender="male"/>
+          </competitors>
+          <coverage type="group">
+            <group_properties brackets="true" cup="true" league="false" missing_players="false" qualification="true" schedules="true" results="true" standings="false" group_stage="false"/>
+            <sport_event_properties basic_play_by_play="true" basic_player_stats="true" basic_team_stats="true" lineups="false" extended_player_stats="false" extended_team_stats="false" deeper_team_stats="false" deeper_player_stats="false" deeper_play_by_play="false" goal_scorers="true" scores="live"/>
+          </coverage>
+        </group>
+      </groups>
+    </stage>
+    <stage order="3" type="league" phase="regular season" start_date="2022-09-06" end_date="2022-11-02" year="22/23">
+      <groups>
+        <group id="sr:league:65635" name="Group A" max_rounds="6" group_name="A">
+          <competitors>
+            <competitor id="sr:competitor:2351" name="Glasgow Rangers" country="Scotland" country_code="SCO" abbreviation="RFC" gender="male"/>
+            <competitor id="sr:competitor:2953" name="Ajax Amsterdam" country="Netherlands" country_code="NLD" abbreviation="AJA" gender="male"/>
+            <competitor id="sr:competitor:44" name="Liverpool FC" country="England" country_code="ENG" abbreviation="LIV" gender="male"/>
+            <competitor id="sr:competitor:2714" name="SSC Napoli" country="Italy" country_code="ITA" abbreviation="NAP" gender="male"/>
+          </competitors>
+          <coverage type="group">
+            <group_properties brackets="false" cup="false" league="true" missing_players="false" qualification="false" schedules="true" results="true" standings="live" group_stage="true"/>
+            <sport_event_properties basic_play_by_play="true" basic_player_stats="true" basic_team_stats="true" lineups="true" extended_player_stats="true" extended_team_stats="true" deeper_team_stats="true" deeper_player_stats="true" deeper_play_by_play="true" goal_scorers="true" scores="live"/>
+          </coverage>
+        </group>
+        <group id="sr:league:65637" name="Group B" max_rounds="6" group_name="B">
+          <competitors>
+            <competitor id="sr:competitor:2681" name="Bayer Leverkusen" country="Germany" country_code="DEU" abbreviation="LEV" gender="male"/>
+            <competitor id="sr:competitor:3002" name="FC Porto" country="Portugal" country_code="PRT" abbreviation="FCP" gender="male"/>
+            <competitor id="sr:competitor:2888" name="Club Brugge" country="Belgium" country_code="BEL" abbreviation="BRU" gender="male"/>
+            <competitor id="sr:competitor:2836" name="Atletico Madrid" country="Spain" country_code="ESP" abbreviation="ATM" gender="male"/>
+          </competitors>
+          <coverage type="group">
+            <group_properties brackets="false" cup="false" league="true" missing_players="false" qualification="false" schedules="true" results="true" standings="live" group_stage="true"/>
+            <sport_event_properties basic_play_by_play="true" basic_player_stats="true" basic_team_stats="true" lineups="true" extended_player_stats="true" extended_team_stats="true" deeper_team_stats="true" deeper_player_stats="true" deeper_play_by_play="true" goal_scorers="true" scores="live"/>
+          </coverage>
+        </group>
+        <group id="sr:league:65639" name="Group C" max_rounds="6" group_name="C">
+          <competitors>
+            <competitor id="sr:competitor:2817" name="FC Barcelona" country="Spain" country_code="ESP" abbreviation="FCB" gender="male"/>
+            <competitor id="sr:competitor:2672" name="Bayern Munich" country="Germany" country_code="DEU" abbreviation="BMU" gender="male"/>
+            <competitor id="sr:competitor:2697" name="Inter Milano" country="Italy" country_code="ITA" abbreviation="INT" gender="male"/>
+            <competitor id="sr:competitor:4502" name="FC Viktoria Plzen" country="Czech Republic" country_code="CZE" abbreviation="VIK" gender="male"/>
+          </competitors>
+          <coverage type="group">
+            <group_properties brackets="false" cup="false" league="true" missing_players="false" qualification="false" schedules="true" results="true" standings="live" group_stage="true"/>
+            <sport_event_properties basic_play_by_play="true" basic_player_stats="true" basic_team_stats="true" lineups="true" extended_player_stats="true" extended_team_stats="true" deeper_team_stats="true" deeper_player_stats="true" deeper_play_by_play="true" goal_scorers="true" scores="live"/>
+          </coverage>
+        </group>
+        <group id="sr:league:65641" name="Group D" max_rounds="6" group_name="D">
+          <competitors>
+            <competitor id="sr:competitor:3001" name="Sporting Lisbon" country="Portugal" country_code="PRT" abbreviation="SPO" gender="male"/>
+            <competitor id="sr:competitor:1641" name="Olympique Marseille" country="France" country_code="FRA" abbreviation="OM" gender="male"/>
+            <competitor id="sr:competitor:33" name="Tottenham Hotspur" country="England" country_code="ENG" abbreviation="TOT" gender="male"/>
+            <competitor id="sr:competitor:2674" name="Eintracht Frankfurt" country="Germany" country_code="DEU" abbreviation="SGE" gender="male"/>
+          </competitors>
+          <coverage type="group">
+            <group_properties brackets="false" cup="false" league="true" missing_players="false" qualification="false" schedules="true" results="true" standings="live" group_stage="true"/>
+            <sport_event_properties basic_play_by_play="true" basic_player_stats="true" basic_team_stats="true" lineups="true" extended_player_stats="true" extended_team_stats="true" deeper_team_stats="true" deeper_player_stats="true" deeper_play_by_play="true" goal_scorers="true" scores="live"/>
+          </coverage>
+        </group>
+        <group id="sr:league:65643" name="Group E" max_rounds="6" group_name="E">
+          <competitors>
+            <competitor id="sr:competitor:2692" name="AC Milan" country="Italy" country_code="ITA" abbreviation="ACM" gender="male"/>
+            <competitor id="sr:competitor:38" name="Chelsea FC" country="England" country_code="ENG" abbreviation="CHE" gender="male"/>
+            <competitor id="sr:competitor:2032" name="GNK Dinamo Zagreb" country="Croatia" country_code="HRV" abbreviation="DIN" gender="male"/>
+            <competitor id="sr:competitor:2046" name="FC Salzburg" country="Austria" country_code="AUT" abbreviation="SAL" gender="male"/>
+          </competitors>
+          <coverage type="group">
+            <group_properties brackets="false" cup="false" league="true" missing_players="false" qualification="false" schedules="true" results="true" standings="live" group_stage="true"/>
+            <sport_event_properties basic_play_by_play="true" basic_player_stats="true" basic_team_stats="true" lineups="true" extended_player_stats="true" extended_team_stats="true" deeper_team_stats="true" deeper_player_stats="true" deeper_play_by_play="true" goal_scorers="true" scores="live"/>
+          </coverage>
+        </group>
+        <group id="sr:league:65645" name="Group F" max_rounds="6" group_name="F">
+          <competitors>
+            <competitor id="sr:competitor:2829" name="Real Madrid" country="Spain" country_code="ESP" abbreviation="RMA" gender="male"/>
+            <competitor id="sr:competitor:3313" name="FC Shakhtar Donetsk" country="Ukraine" country_code="UKR" abbreviation="SHA" gender="male"/>
+            <competitor id="sr:competitor:2352" name="Celtic Glasgow" country="Scotland" country_code="SCO" abbreviation="CEL" gender="male"/>
+            <competitor id="sr:competitor:36360" name="RB Leipzig" country="Germany" country_code="DEU" abbreviation="RBL" gender="male"/>
+          </competitors>
+          <coverage type="group">
+            <group_properties brackets="false" cup="false" league="true" missing_players="false" qualification="false" schedules="true" results="true" standings="live" group_stage="true"/>
+            <sport_event_properties basic_play_by_play="true" basic_player_stats="true" basic_team_stats="true" lineups="true" extended_player_stats="true" extended_team_stats="true" deeper_team_stats="true" deeper_player_stats="true" deeper_play_by_play="true" goal_scorers="true" scores="live"/>
+          </coverage>
+        </group>
+        <group id="sr:league:65647" name="Group G" max_rounds="6" group_name="G">
+          <competitors>
+            <competitor id="sr:competitor:2673" name="Borussia Dortmund" country="Germany" country_code="DEU" abbreviation="BVB" gender="male"/>
+            <competitor id="sr:competitor:1284" name="FC Copenhagen" country="Denmark" country_code="DNK" abbreviation="FCC" gender="male"/>
+            <competitor id="sr:competitor:2833" name="Sevilla FC" country="Spain" country_code="ESP" abbreviation="SEV" gender="male"/>
+            <competitor id="sr:competitor:17" name="Manchester City" country="England" country_code="ENG" abbreviation="MCI" gender="male"/>
+          </competitors>
+          <coverage type="group">
+            <group_properties brackets="false" cup="false" league="true" missing_players="false" qualification="false" schedules="true" results="true" standings="live" group_stage="true"/>
+            <sport_event_properties basic_play_by_play="true" basic_player_stats="true" basic_team_stats="true" lineups="true" extended_player_stats="true" extended_team_stats="true" deeper_team_stats="true" deeper_player_stats="true" deeper_play_by_play="true" goal_scorers="true" scores="live"/>
+          </coverage>
+        </group>
+        <group id="sr:league:65649" name="Group H" max_rounds="6" group_name="H">
+          <competitors>
+            <competitor id="sr:competitor:2687" name="Juventus Turin" country="Italy" country_code="ITA" abbreviation="JUV" gender="male"/>
+            <competitor id="sr:competitor:1644" name="Paris Saint-Germain" country="France" country_code="FRA" abbreviation="PSG" gender="male"/>
+            <competitor id="sr:competitor:5197" name="Maccabi Haifa FC" country="Israel" country_code="ISR" abbreviation="MAH" gender="male"/>
+            <competitor id="sr:competitor:3006" name="Benfica Lisbon" country="Portugal" country_code="PRT" abbreviation="BEN" gender="male"/>
+          </competitors>
+          <coverage type="group">
+            <group_properties brackets="false" cup="false" league="true" missing_players="false" qualification="false" schedules="true" results="true" standings="live" group_stage="true"/>
+            <sport_event_properties basic_play_by_play="true" basic_player_stats="true" basic_team_stats="true" lineups="true" extended_player_stats="true" extended_team_stats="true" deeper_team_stats="true" deeper_player_stats="true" deeper_play_by_play="true" goal_scorers="true" scores="live"/>
+          </coverage>
+        </group>
+      </groups>
+    </stage>
+    <stage order="4" type="cup" phase="playoffs" start_date="2023-02-14" end_date="2023-06-10" year="22/23">
+      <groups>
+        <group id="sr:cup:133479" name="UEFA Champions League 22/23, Knockout stage">
+          <competitors>
+            <competitor id="sr:competitor:17" name="Manchester City" country="England" country_code="ENG" abbreviation="MCI" gender="male"/>
+            <competitor id="sr:competitor:33" name="Tottenham Hotspur" country="England" country_code="ENG" abbreviation="TOT" gender="male"/>
+            <competitor id="sr:competitor:38" name="Chelsea FC" country="England" country_code="ENG" abbreviation="CHE" gender="male"/>
+            <competitor id="sr:competitor:44" name="Liverpool FC" country="England" country_code="ENG" abbreviation="LIV" gender="male"/>
+            <competitor id="sr:competitor:1644" name="Paris Saint-Germain" country="France" country_code="FRA" abbreviation="PSG" gender="male"/>
+            <competitor id="sr:competitor:2672" name="Bayern Munich" country="Germany" country_code="DEU" abbreviation="BMU" gender="male"/>
+            <competitor id="sr:competitor:2673" name="Borussia Dortmund" country="Germany" country_code="DEU" abbreviation="BVB" gender="male"/>
+            <competitor id="sr:competitor:2674" name="Eintracht Frankfurt" country="Germany" country_code="DEU" abbreviation="SGE" gender="male"/>
+            <competitor id="sr:competitor:2692" name="AC Milan" country="Italy" country_code="ITA" abbreviation="ACM" gender="male"/>
+            <competitor id="sr:competitor:2697" name="Inter Milano" country="Italy" country_code="ITA" abbreviation="INT" gender="male"/>
+            <competitor id="sr:competitor:2714" name="SSC Napoli" country="Italy" country_code="ITA" abbreviation="NAP" gender="male"/>
+            <competitor id="sr:competitor:2829" name="Real Madrid" country="Spain" country_code="ESP" abbreviation="RMA" gender="male"/>
+            <competitor id="sr:competitor:2888" name="Club Brugge" country="Belgium" country_code="BEL" abbreviation="BRU" gender="male"/>
+            <competitor id="sr:competitor:3002" name="FC Porto" country="Portugal" country_code="PRT" abbreviation="FCP" gender="male"/>
+            <competitor id="sr:competitor:3006" name="Benfica Lisbon" country="Portugal" country_code="PRT" abbreviation="BEN" gender="male"/>
+            <competitor id="sr:competitor:36360" name="RB Leipzig" country="Germany" country_code="DEU" abbreviation="RBL" gender="male"/>
+          </competitors>
+          <coverage type="group">
+            <group_properties brackets="true" cup="true" league="false" missing_players="false" qualification="false" schedules="true" results="true" standings="false" group_stage="false"/>
+            <sport_event_properties basic_play_by_play="true" basic_player_stats="true" basic_team_stats="true" lineups="true" extended_player_stats="true" extended_team_stats="true" deeper_team_stats="true" deeper_player_stats="true" deeper_play_by_play="true" goal_scorers="true" scores="live"/>
+          </coverage>
+        </group>
+      </groups>
+    </stage>
+  </stages>
+</season_info>
